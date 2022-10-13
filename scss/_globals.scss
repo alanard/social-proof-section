@@ -24,27 +24,27 @@ main {
   .rating-reviews {
     color: $veryDarkMagenta;
     display: flex;
-    margin: 100px 0px;
+    margin: 100px 0px 50px 0px;
     section:first-child {
       color: $veryDarkMagenta;
       margin: 0px 170px;
       width: 40%;
       h1 {
         width: 60%;
-        font-size: 45px;
+        font-size: 50px;
         color: $veryDarkMagenta;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        font-weight: 700;
       }
       p {
         width: 70%;
         font-size: 16px;
-        line-height: 1.2;
+        line-height: 1.5;
         color: $darkGrayishMagenta;
       }
     }
     section:last-child {
       color: $veryDarkMagenta;
-      // border: 1px solid black;
       margin: auto;
       position: relative;
       right: 160px;
@@ -52,19 +52,18 @@ main {
         .row-rated {
           background-color: $lightGrayishMagenta;
           width: 400px;
-          height: 50px;
+          height: 60px;
           border-radius: 10px;
           padding: 10px 30px;
           display: flex;
           align-items: center;
-          // border: 1px solid black;
           span {
             color: $veryDarkMagenta;
             font-weight: 700;
             margin-left: 15px;
           }
           &:not(:last-child) {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
           }
         }
       }
@@ -83,13 +82,10 @@ main {
     }
   }
   .customers-review {
-    // border: 1px solid black;
     display: flex;
     width: 76%;
-    // height: 250px;
     margin: auto;
     .card {
-      // border: 1px solid black;
       border-radius: 10px;
       position: relative;
       background-color: $veryDarkMagenta;
@@ -107,8 +103,10 @@ main {
         .profile-name {
           margin-left: 20px;
           margin-top: 5px;
-          h3 {
+          h2 {
             color: $white;
+            font-size: 18px;
+            margin-bottom: 3px;
             font-weight: 500;
           }
           span {
@@ -119,7 +117,8 @@ main {
       p {
         color: $white;
         padding: 0px 35px 35px;
-        line-height: 1.2;
+        line-height: 1.4;
+        font-size: 16px;
       }
 
       &:not(:last-child) {
